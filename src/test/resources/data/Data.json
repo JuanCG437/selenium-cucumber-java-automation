@@ -1,0 +1,10 @@
+{
+  "url": "https://www.mercadolibre.com.co/",
+  "endpoint": "search",
+  "product": "Portátil Gamer",
+  "credentials": {
+    "email": "qatesting437@outlook.es",
+    "name": "",
+    "password": ""
+  }
+}

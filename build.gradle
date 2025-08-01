@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+    id 'io.qameta.allure' version '2.11.2'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    // Selenium
+    implementation("org.seleniumhq.selenium:selenium-java:4.33.0")
+
+    // Cucumber
+    implementation("io.cucumber:cucumber-java:7.15.0")
+    testImplementation("io.cucumber:cucumber-junit:7.15.0")
+
+    // Jackson - Dependence get data by JSON
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.17.2")
+
+    // JUnit
+    testImplementation("junit:junit:4.13.2")
+
+    // Allure Reports
+    implementation("io.qameta.allure:allure-cucumber7-jvm:2.21.0")
+
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+}
+
+test {
+    useJUnit()
+}
+
+allure {
+    version = '2.21.0'
+}
