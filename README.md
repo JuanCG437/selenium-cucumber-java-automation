@@ -100,3 +100,12 @@ Open it manually:
 - [Linkedin](www.linkedin.com/in/juan-cortez-6bb839376)
 - [Portfolio](https://www.notion.so/Portafolio-QA-Juan-Manuel-Cortez-G-mez-2385254889ec8081a833ced9ae572a5e?source=copy_link)
 
+## 📄 License
+
+This project is licensed under the MIT License (with limitations).
+
+You are free to use, copy, modify, and distributions this software for personal and educational purposes.
+**Commercial use is not allowed** without the author's written permission.
+
+See the [LICENSE](./LICENSE) file for full datils.
+
