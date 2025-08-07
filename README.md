@@ -1,4 +1,4 @@
-# Web UI test Automation Project - Selenium, Cucumber & Java
+# Web UI test Automation Project
 
 📌**This repository contains automated UI test using Selenium WebDriver, Cucumber (BDD), and Java. Designed for portfolio and learning purposes.**
 
